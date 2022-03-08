@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp6
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] a = new int[] {40,51,95,90};
+            Array.Sort(a);
+            foreach (int i in a) 
+            { 
+                Console.Write(i);
+                Console.ReadLine();
+            }
+
+
+               
+        }
+    }
+}
